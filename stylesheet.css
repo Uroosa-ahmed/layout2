@@ -9,13 +9,14 @@
     
 }
 .button{
-    width: 10%;
+    width: 40%;
     background-color: orangered;
     height: 5rem;
     border: none;
-}
+
+}  
 .bttn{
-    width: 85%;
+    width: 55%;
     background-color: turquoise;
     height: 5rem;
     border: none;
@@ -54,34 +55,35 @@
 
     height: 20rem;
     background-color: lightgrey;
-    width: 29.9999%;
+    width: 20%;
+    justify-content: space-between;
    
 }
 .box4, .box5, .box6{
     display: inline-flex;
     background-color: yellow;
     height: 4rem;
-    width: 29.9999%;
+    width: 20%;
 
 }
 
 .box7, .box8, .box9{
     display: inline-flex;
-    width: 29.9999%;
+    width: 20%;
     background-color: lightgrey;
     height: 2rem;
 
 }
 .box10, .box11, .box12{
     display: inline-flex;
-    width: 29.9999%;
+    width: 20%;
     background-color: lightgrey;
     height: 2rem;
 
 }
 .box13, .box14, .box15{
     display: inline-flex;
-    width: 29.9999%;
+    width: 20%;
     background-color: lightgrey;
     height: 2rem;
     
@@ -89,7 +91,7 @@
 }
 
 
-@media (max-width: 768px){
+@media  (max-width: 967px){
 
     .navbar{
   
@@ -104,13 +106,14 @@
 
 
     .button{
-        width: 10%;
+        width: 45%;
         background-color: orangered;
         height: 5rem;
-         border: none;
-    }
+        border: none;
+    
+    }  
     .bttn{
-        width: 85%;
+        width: 50%;
         background-color: turquoise;
         height: 5rem;
         border: none;
@@ -126,15 +129,23 @@
     .box13{display: none;}
     }
 
-@media (max-width: 576px){
+@media(min-width: 100px) and (max-width: 966px) {
 
-    .navbar{
-  
-        width: 90%;
-        height: 60px;
-        margin: 20px;
-        
+    
+    .button{
+        width: 20%;
+        background-color: orangered;
+        height: 5rem;
+        border: none;
+    
+    }  
+    .bttn{
+        width: 70%;
+        background-color: turquoise;
+        height: 5rem;
+        border: none;
     }
+
 
 .box1{display: none;}
 
@@ -188,5 +199,71 @@
     margin: 15px;
 
 }
+
+}
+
+@media (max-width: 576px) {
+
+    .button{display: none;}
+
+.bttn{
+        width: 90%;
+        background-color: turquoise;
+        height: 5rem;
+        border: none;
+    }
+
+    .navbar{
+  
+        width: 100%;
+        margin: 1.3rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 5rem;
+        
+    }
+    .container{
+      
+        width: 97.5%;
+        height:600px;
+        margin-top: 3rem;
+        margin: 1.3rem auto;
+    }
+
+    .box2{
+
+    
+        background-color: lightgrey;
+        width: 95%;
+        margin: 15px;
+    }
+    .box3,.box6,.box9,.box12,.box15,.box14{
+        display: none;
+    }
+
+    .box5{
+        display: inline-flex;
+        background-color: yellow;
+        width: 95%;
+        margin: 5px;
+    }
+
+    .box8{
+        display: inline-flex;
+        width: 29.9999%;
+        background-color: lightgrey;
+        width: 95%;
+        margin: 5px;
+    }
+    
+    .box11{
+        display: inline-flex;
+        width: 29.9999%;
+        background-color: lightgrey;
+        width: 95%;
+        margin: 5px;
+    }
+    
 
 }
